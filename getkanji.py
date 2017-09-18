@@ -38,8 +38,7 @@ class GetKanji(object):
                "vocabulary-for-the-jlpt-n5/")
 
     def getpage(self):
-        """
-        getpage:
+        """getpage:
         Get the webpage that contains the JLPT Vocab list
 
         Args:
@@ -72,8 +71,7 @@ class GetKanji(object):
         response.close()
 
     def makejson(self):
-        """
-        makejson:
+        """makejson:
         Prints the vocab words to a JSON file.
 
         Args:
@@ -107,8 +105,7 @@ class GetKanji(object):
             raise
 
     def weeklyvocab(self):
-        """
-        weeklyvocab:
+        """weeklyvocab:
         Return a list of ten (tentative) vocab for the week.
 
         Args:
@@ -141,8 +138,7 @@ class GetKanji(object):
             raise
 
     def printvocab(self, vlist):
-        """
-        printvocab:
+        """printvocab:
         Pretty-prints the vocab list for the week to STDOUT.
 
         Args:
